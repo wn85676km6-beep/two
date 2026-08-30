@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1320" viewBox="0 0 1600 1320" role="img" aria-labelledby="title description">
+  <title id="title">造师台产品介绍与演示字幕</title>
+  <desc id="description">产品介绍图与七段演示字幕合并的一页长图。</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#202e73"/><stop offset="1" stop-color="#4533a6"/></linearGradient>
+    <style>
+      .font{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+      .time{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-size:16px;font-weight:700;fill:#aebdff}
+      .line{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-size:20px;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1600" height="1320" fill="#f7f9ff"/>
+  <image href="product-introduction.svg" xlink:href="product-introduction.svg" x="0" y="0" width="1600" height="1000" preserveAspectRatio="xMidYMid meet"/>
+  <rect x="0" y="1000" width="1600" height="320" fill="url(#panel)"/>
+  <g transform="translate(76 1048)">
+    <rect width="114" height="36" rx="18" fill="#fff" opacity=".16"/>
+    <text x="57" y="24" text-anchor="middle" class="font" font-size="17" font-weight="700" fill="#fff">演示字幕</text>
+    <text x="140" y="24" class="font" font-size="18" fill="#dce3ff">约 36 秒产品介绍配音稿</text>
+  </g>
+  <g transform="translate(82 1124)">
+    <text x="0" y="0" class="time">00:00–00:04</text><text x="0" y="31" class="line">造师台，让每一段学习都有懂你的老师。</text>
+    <text x="0" y="78" class="time">00:04–00:09</text><text x="0" y="109" class="line">面向学生和家庭的 AI 学习空间，帮助学习从开始走向掌握。</text>
+    <text x="0" y="156" class="time">00:09–00:14</text><text x="0" y="187" class="line">选择专属老师的形象和沟通方式，获得贴合自己的学习陪伴。</text>
+    <text x="0" y="234" class="time">00:14–00:19</text><text x="0" y="265" class="line">把大目标拆成清晰、轻松的今日任务，每一步都有方向。</text>
+  </g>
+  <g transform="translate(838 1124)">
+    <text x="0" y="0" class="time">00:19–00:25</text><text x="0" y="31" class="line">AI 围绕当前任务解释知识、举例，并给出下一步建议。</text>
+    <text x="0" y="78" class="time">00:25–00:30</text><text x="0" y="109" class="line">笔记、复习、成就与记录持续沉淀，让进步看得见。</text>
+    <text x="0" y="156" class="time">00:30–00:36</text><text x="0" y="187" class="line">选择老师，生成计划，完成并复盘，建立学习信心。</text>
+    <rect x="0" y="222" width="505" height="46" rx="23" fill="#fff" opacity=".12"/>
+    <text x="252" y="252" text-anchor="middle" class="font" font-size="18" font-weight="700" fill="#fff">造师台 · 让学习被理解，也能被坚持</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "zaoshitai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "造师台本地学习方案与专属老师原型",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

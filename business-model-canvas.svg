@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">造师台商业模式画布</title>
+  <desc id="desc">一页式商业模式分析，概览目标用户、问题、价值主张、渠道、盈利方式和竞争优势。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8ff"/>
+      <stop offset="1" stop-color="#edf6ff"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a4df5"/>
+      <stop offset="1" stop-color="#3867ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#25418c" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .title{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-weight:800;fill:#15264c}
+      .body{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#42557d;font-size:24px}
+      .label{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-weight:700;fill:#fff;font-size:20px;letter-spacing:1px}
+      .cardTitle{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-weight:800;fill:#172b56;font-size:30px}
+      .bullet{fill:#4769ff}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1500" cy="70" r="180" fill="#dce5ff" opacity=".55"/>
+  <circle cx="92" cy="927" r="145" fill="#d9fff4" opacity=".62"/>
+
+  <g transform="translate(70 54)">
+    <rect width="136" height="42" rx="21" fill="url(#brand)"/>
+    <text x="68" y="28" text-anchor="middle" class="label">AI 学习平台</text>
+    <text x="0" y="108" class="title" font-size="54">造师台 · Business Model Canvas</text>
+    <text x="2" y="150" class="body" font-size="25">一页商业模式分析｜让每一段学习都有懂你的老师</text>
+  </g>
+
+  <!-- Cards row 1 -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="250" width="450" height="280" rx="28" fill="#fff"/>
+    <rect x="560" y="250" width="450" height="280" rx="28" fill="#fff"/>
+    <rect x="1050" y="250" width="480" height="280" rx="28" fill="#fff"/>
+    <rect x="70" y="570" width="450" height="280" rx="28" fill="#fff"/>
+    <rect x="560" y="570" width="450" height="280" rx="28" fill="#fff"/>
+    <rect x="1050" y="570" width="480" height="280" rx="28" fill="#fff"/>
+  </g>
+
+  <!-- Target users -->
+  <g transform="translate(104 286)">
+    <rect width="174" height="46" rx="23" fill="#e9edff"/>
+    <text x="18" y="31" class="cardTitle" font-size="22" fill="#425cff">01 · 目标用户</text>
+    <text x="0" y="89" class="cardTitle">谁会使用？</text>
+    <circle cx="8" cy="130" r="6" class="bullet"/><text x="26" y="138" class="body">学生与自主学习者</text>
+    <circle cx="8" cy="174" r="6" class="bullet"/><text x="26" y="182" class="body">关注成长的家长</text>
+    <circle cx="8" cy="218" r="6" class="bullet"/><text x="26" y="226" class="body">学校、培训机构（后续）</text>
+  </g>
+
+  <!-- Problems -->
+  <g transform="translate(594 286)">
+    <rect width="174" height="46" rx="23" fill="#fff0e3"/>
+    <text x="18" y="31" class="cardTitle" font-size="22" fill="#d97820">02 · 用户痛点</text>
+    <text x="0" y="89" class="cardTitle">解决什么问题？</text>
+    <circle cx="8" cy="130" r="6" fill="#f49b4b"/><text x="26" y="138" class="body">学习路径不清晰</text>
+    <circle cx="8" cy="174" r="6" fill="#f49b4b"/><text x="26" y="182" class="body">讲解泛化、缺少陪伴</text>
+    <circle cx="8" cy="218" r="6" fill="#f49b4b"/><text x="26" y="226" class="body">压力大，记录分散</text>
+  </g>
+
+  <!-- Value -->
+  <g transform="translate(1084 286)">
+    <rect width="196" height="46" rx="23" fill="#e2faf3"/>
+    <text x="18" y="31" class="cardTitle" font-size="22" fill="#168565">03 · 价值主张</text>
+    <text x="0" y="89" class="cardTitle">提供什么价值？</text>
+    <circle cx="8" cy="130" r="6" fill="#31bd98"/><text x="26" y="138" class="body">专属老师 + 个性化计划</text>
+    <circle cx="8" cy="174" r="6" fill="#31bd98"/><text x="26" y="182" class="body">对话、任务、复习闭环</text>
+    <circle cx="8" cy="218" r="6" fill="#31bd98"/><text x="26" y="226" class="body">低压力陪学与本机隐私</text>
+  </g>
+
+  <!-- Channels -->
+  <g transform="translate(104 606)">
+    <rect width="174" height="46" rx="23" fill="#edf2ff"/>
+    <text x="18" y="31" class="cardTitle" font-size="22" fill="#4d65c9">04 · 触达渠道</text>
+    <text x="0" y="89" class="cardTitle">如何找到用户？</text>
+    <circle cx="8" cy="130" r="6" class="bullet"/><text x="26" y="138" class="body">校园试用与机构合作</text>
+    <circle cx="8" cy="174" r="6" class="bullet"/><text x="26" y="182" class="body">家长社群、内容平台</text>
+    <circle cx="8" cy="218" r="6" class="bullet"/><text x="26" y="226" class="body">局域网演示与口碑推荐</text>
+  </g>
+
+  <!-- Revenue -->
+  <g transform="translate(594 606)">
+    <rect width="174" height="46" rx="23" fill="#fff0e3"/>
+    <text x="18" y="31" class="cardTitle" font-size="22" fill="#d97820">05 · 盈利方式</text>
+    <text x="0" y="89" class="cardTitle">怎样实现盈利？</text>
+    <circle cx="8" cy="130" r="6" fill="#f49b4b"/><text x="26" y="138" class="body">免费基础版引流</text>
+    <circle cx="8" cy="174" r="6" fill="#f49b4b"/><text x="26" y="182" class="body">高级 AI 与深度报告订阅</text>
+    <circle cx="8" cy="218" r="6" fill="#f49b4b"/><text x="26" y="226" class="body">家庭版、机构定制服务</text>
+  </g>
+
+  <!-- Advantages -->
+  <g transform="translate(1084 606)">
+    <rect width="196" height="46" rx="23" fill="#eeeaff"/>
+    <text x="18" y="31" class="cardTitle" font-size="22" fill="#7050d5">06 · 竞争优势</text>
+    <text x="0" y="89" class="cardTitle">为何选择造师台？</text>
+    <circle cx="8" cy="130" r="6" fill="#8669e8"/><text x="26" y="138" class="body">懂任务，也懂情绪陪伴</text>
+    <circle cx="8" cy="174" r="6" fill="#8669e8"/><text x="26" y="182" class="body">老师形象、语气可定制</text>
+    <circle cx="8" cy="218" r="6" fill="#8669e8"/><text x="26" y="226" class="body">本地优先，数据更可控</text>
+  </g>
+
+  <g transform="translate(70 900)">
+    <rect width="1460" height="54" rx="16" fill="#e8edff"/>
+    <text x="28" y="35" class="body" font-size="21" fill="#4a5e93">关键验证：持续打磨 AI 回复质量、控制服务成本、落实未成年人安全与隐私保护。</text>
+    <text x="1422" y="35" text-anchor="end" class="title" font-size="19" fill="#526bdb">造师台</text>
+  </g>
+</svg>

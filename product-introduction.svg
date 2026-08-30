@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title description">
+  <title id="title">造师台产品介绍</title>
+  <desc id="description">造师台是一款以专属AI老师为核心的学习平台，提供学习计划、智能对话、复习和成长记录。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f9ff"/><stop offset="1" stop-color="#eef5ff"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#734cf7"/><stop offset="1" stop-color="#3868ff"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35ccaa"/><stop offset="1" stop-color="#24a983"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="11" stdDeviation="15" flood-color="#1d3c81" flood-opacity=".13"/></filter>
+    <style>
+      .font{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+      .headline{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-weight:800;fill:#142651}
+      .copy{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#52658c;font-size:23px}
+      .card-title{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-weight:800;fill:#1a2e59;font-size:27px}
+      .chip{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-weight:700;fill:#fff;font-size:19px}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#background)"/>
+  <circle cx="1508" cy="-35" r="238" fill="#dfe5ff" opacity=".6"/><circle cx="-45" cy="926" r="230" fill="#dffaf3" opacity=".7"/>
+
+  <g transform="translate(76 64)">
+    <rect width="142" height="44" rx="22" fill="url(#purple)"/><text x="71" y="29" text-anchor="middle" class="chip">造师台</text>
+    <text x="0" y="108" class="headline" font-size="60">让每一段学习，都有懂你的老师</text>
+    <text x="3" y="153" class="copy" font-size="27">面向学生与家庭的 AI 学习空间：从“开始”到“掌握”，陪你走完每一步。</text>
+    <g transform="translate(0 184)">
+      <rect width="174" height="38" rx="19" fill="#e8edff"/><text x="87" y="25" text-anchor="middle" class="font" font-size="17" font-weight="700" fill="#4d61cb">学生与自主学习者</text>
+      <rect x="188" width="132" height="38" rx="19" fill="#e2faf4"/><text x="254" y="25" text-anchor="middle" class="font" font-size="17" font-weight="700" fill="#188669">关注成长的家长</text>
+      <rect x="334" width="188" height="38" rx="19" fill="#fff0e3"/><text x="428" y="25" text-anchor="middle" class="font" font-size="17" font-weight="700" fill="#c97429">学校与培训机构（后续）</text>
+    </g>
+  </g>
+
+  <!-- Teacher character and product card -->
+  <g transform="translate(1090 58)">
+    <circle cx="162" cy="130" r="102" fill="#e9e6ff"/>
+    <circle cx="162" cy="116" r="54" fill="#ffd9b8"/>
+    <path d="M108 112c4-64 103-74 111 7-17-17-35-23-54-23-21 0-39 8-57 16z" fill="#3d3566"/>
+    <circle cx="142" cy="118" r="5" fill="#263356"/><circle cx="182" cy="118" r="5" fill="#263356"/>
+    <path d="M145 145q18 14 36 0" fill="none" stroke="#ce6b73" stroke-width="5" stroke-linecap="round"/>
+    <path d="M91 226q70-65 142 0v47H91z" fill="url(#purple)"/>
+    <text x="162" y="266" text-anchor="middle" class="chip" font-size="18">专属 AI 老师</text>
+    <rect x="270" y="86" width="154" height="56" rx="18" fill="#fff" filter="url(#shadow)"/>
+    <text x="347" y="120" text-anchor="middle" class="copy" font-size="19">温和 · 专注 · 可选</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="76" y="286" width="1448" height="156" rx="30" fill="url(#purple)"/>
+  </g>
+  <g transform="translate(118 324)">
+    <text x="0" y="0" class="chip" font-size="20">产品定位</text>
+    <text x="0" y="55" class="font" font-weight="800" fill="#fff" font-size="34">不只是聊天工具，而是一个可执行、可复盘、可成长的学习闭环。</text>
+    <text x="0" y="96" class="font" fill="#e5e9ff" font-size="23">专属老师 × 智能计划 × 学习对话 × 间隔复习 × 成长记录</text>
+  </g>
+  <g transform="translate(1280 325)">
+    <rect width="194" height="76" rx="22" fill="#fff" opacity=".96"/><text x="97" y="31" text-anchor="middle" class="headline" font-size="18" fill="#4b65eb">立即体验</text><text x="97" y="57" text-anchor="middle" class="copy" font-size="18">快速开始学习</text>
+  </g>
+
+  <!-- Four core features -->
+  <g filter="url(#shadow)">
+    <rect x="76" y="490" width="335" height="260" rx="26" fill="#fff"/>
+    <rect x="445" y="490" width="335" height="260" rx="26" fill="#fff"/>
+    <rect x="814" y="490" width="335" height="260" rx="26" fill="#fff"/>
+    <rect x="1183" y="490" width="341" height="260" rx="26" fill="#fff"/>
+  </g>
+  <g transform="translate(108 528)"><circle cx="35" cy="35" r="35" fill="#e9edff"/><text x="35" y="46" text-anchor="middle" class="font" font-size="37">👩🏻‍🏫</text><text x="0" y="115" class="card-title">专属老师</text><text x="0" y="154" class="copy" font-size="20">选择形象与沟通方式，</text><text x="0" y="187" class="copy" font-size="20">获得更贴合自己的陪伴。</text></g>
+  <g transform="translate(477 528)"><circle cx="35" cy="35" r="35" fill="#e2faf4"/><text x="35" y="46" text-anchor="middle" class="font" font-size="37">🗺️</text><text x="0" y="115" class="card-title">学习路径</text><text x="0" y="154" class="copy" font-size="20">清晰的今日任务与阶段目标，</text><text x="0" y="187" class="copy" font-size="20">每完成一步都看得见进度。</text></g>
+  <g transform="translate(846 528)"><circle cx="35" cy="35" r="35" fill="#fff0e3"/><text x="35" y="46" text-anchor="middle" class="font" font-size="37">💬</text><text x="0" y="115" class="card-title">智能对话</text><text x="0" y="154" class="copy" font-size="20">围绕当前任务给出解释、</text><text x="0" y="187" class="copy" font-size="20">例子与下一步行动建议。</text></g>
+  <g transform="translate(1215 528)"><circle cx="35" cy="35" r="35" fill="#eeeaff"/><text x="35" y="46" text-anchor="middle" class="font" font-size="37">🌱</text><text x="0" y="115" class="card-title">成长可见</text><text x="0" y="154" class="copy" font-size="20">笔记、复习、成就与记录，</text><text x="0" y="187" class="copy" font-size="20">沉淀属于自己的学习习惯。</text></g>
+
+  <!-- Flow -->
+  <g transform="translate(76 800)">
+    <text x="0" y="0" class="headline" font-size="28">三步开启学习</text>
+    <g transform="translate(0 37)"><rect width="430" height="92" rx="22" fill="#fff" filter="url(#shadow)"/><circle cx="48" cy="46" r="22" fill="#5269ff"/><text x="48" y="53" text-anchor="middle" class="chip">1</text><text x="88" y="39" class="card-title" font-size="21">选择或快速创建老师</text><text x="88" y="66" class="copy" font-size="17">从适合自己的方式开始</text></g>
+    <path d="M452 82h54" stroke="#92a2d7" stroke-width="4" stroke-linecap="round"/><path d="M500 75l11 7-11 7" fill="none" stroke="#92a2d7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(545 37)"><rect width="430" height="92" rx="22" fill="#fff" filter="url(#shadow)"/><circle cx="48" cy="46" r="22" fill="#2bbd99"/><text x="48" y="53" text-anchor="middle" class="chip">2</text><text x="88" y="39" class="card-title" font-size="21">生成适合的学习计划</text><text x="88" y="66" class="copy" font-size="17">目标拆成轻松可完成的任务</text></g>
+    <path d="M997 82h54" stroke="#92a2d7" stroke-width="4" stroke-linecap="round"/><path d="M1045 75l11 7-11 7" fill="none" stroke="#92a2d7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(1090 37)"><rect width="434" height="92" rx="22" fill="url(#green)" filter="url(#shadow)"/><circle cx="48" cy="46" r="22" fill="#fff" opacity=".24"/><text x="48" y="53" text-anchor="middle" class="chip">3</text><text x="88" y="39" class="font" font-weight="800" fill="#fff" font-size="21">和老师一起完成与复盘</text><text x="88" y="66" class="font" fill="#e6fff8" font-size="17">在持续行动中建立信心</text></g>
+  </g>
+</svg>
